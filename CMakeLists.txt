@@ -22,19 +22,19 @@ set(CMAKE_PREFIX_PATH "${CONDA_ENVS_PATH}/lib/python3.8/site-packages/pybind11/s
 find_package(pybind11 REQUIRED)
 
 # set target
-pybind11_add_module(torch_ext torch_ext.cpp)
+pybind11_add_module(torch_extension torch_extension.cpp)
 set_target_properties(
-    torch_ext PROPERTIES
+    torch_extension PROPERTIES
     CXX_STANDARD 14
     CXX_STANDARD_REQUIRED YES
 )
 target_include_directories(
-    torch_ext
+    torch_extension
     PRIVATE ${TORCH_API_PATH}
     PRIVATE ${TORCH_INCLUDE_DIRS}
 )
 target_link_libraries(
-    torch_ext
+    torch_extension
     PRIVATE ${TORCH_LIBRARIES}
     PRIVATE ${TORCH_PYTHON_LIBRARY}
     PRIVATE ${pybind11_LIBRARIES}

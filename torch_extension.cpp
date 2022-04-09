@@ -5,6 +5,7 @@
 #include <torch/library.h>
 #include "torch/extension.h"
 
+
 void add_two(
     torch::Tensor& out,
     torch::Tensor& a,
@@ -19,10 +20,6 @@ void add_two(
 }
 
 
-PYBIND11_MODULE(torch_ext, m) {
+PYBIND11_MODULE(torch_extension, m) {
     m.def("torch_add_two", &add_two, "custom add two cpp kernel");
 }
-
-// TORCH_LIBRARY(add2, m) {
-//     m.def("torch_add_two", add_two);
-// }
