@@ -1,6 +1,6 @@
 import torch
 
-from torch_extension.lib import torch_extension_ops
+from torch_extension.ext_lib import torch_extension_ops
 
 
 def add(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:

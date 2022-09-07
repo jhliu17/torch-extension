@@ -1,7 +1,7 @@
 # flake8: noqa
 
 # import library
-from .lib import torch_extension_ops
+from .ext_lib import torch_extension_ops
 
 
 # add ops

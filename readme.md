@@ -1,11 +1,13 @@
-# 🎇 torch-extension: a simple case to illustrate how to extend PyTorch
+# torch-extension
+
+🎇 torch-extension: a simple case to illustrate how to extend PyTorch with C++
 
 ## Environment Preparation
 
 ## Implement Operators in C++
 
-## Wrap with pybind11
+## Wrap with Pybind11
 
-## Bind with python library
+## Bind with Python Library
 
-## Set up and installation
+## Installation

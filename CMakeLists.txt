@@ -22,8 +22,7 @@ set_target_properties(
     torch_extension_ops PROPERTIES
     CXX_STANDARD 17
     CXX_STANDARD_REQUIRED YES
-    LIBRARY_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/torch_extension/lib"
-    RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/torch_extension/bin"
+    LIBRARY_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/torch_extension/ext_lib"
 )
 target_include_directories(
     torch_extension_ops
