@@ -1,4 +1,4 @@
-# torch-extension: a simple case to illustrate how to extend pytorch
+# 🎇 torch-extension: a simple case to illustrate how to extend PyTorch
 
 ## Environment Preparation
 
