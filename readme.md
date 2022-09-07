@@ -1,6 +1,6 @@
 # torch-extension
 
-🎇 torch-extension: a simple case to illustrate how to extend PyTorch with C++
+a simple case to illustrate how to extend PyTorch with C++
 
 ## Environment Preparation
 
