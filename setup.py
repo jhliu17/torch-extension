@@ -9,6 +9,5 @@ setup(
     author_email='junhaoliu17@gmail.com',
     keywords=['pytorch', 'extension'],
     packages=['torch_extension'],
-    include_package_data=True,
-    exclude_package_date={'torch_extension': ['__pycache__']}
+    include_package_data=True
 )

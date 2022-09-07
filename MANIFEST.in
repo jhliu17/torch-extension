@@ -1,1 +1,1 @@
-recursive-include torch_extension/lib *
+recursive-include torch_extension/ext_lib *
