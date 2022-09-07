@@ -34,3 +34,6 @@
 # Cmake
 build/
 .cache/
+
+# Python
+__pycache__
